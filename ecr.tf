@@ -1,5 +1,5 @@
 resource "aws_ecr_repository" "rocketseat-rafael-ci-api" {
-  name = "rocketseat-rafael-ci"
+  name                 = "rocketseat-rafael-ci"
   image_tag_mutability = "MUTABLE"
 
   image_scanning_configuration {
